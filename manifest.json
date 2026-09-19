@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "SafeSurf",
+  "version": "1.0.0",
+  "description": "Analyze websites and provide a security safety score.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SafeSurf"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
